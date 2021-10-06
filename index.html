@@ -1,0 +1,48 @@
+<!DOCTYPE html><html lang="en"><head>
+    <script src="p5.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+    <style>
+      #buttonContainer{
+        display: flex;
+        width: 50vw;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        position: absolute;
+        top: 400px;
+      }
+      button{
+        margin:1.2rem;
+        padding: 1.2rem;
+        border-radius: 1.2rem;
+        border: none;
+        background-color: grey;
+
+      }
+      button:hover{
+        
+        background-color: rgb(55, 48, 48);
+        color: white
+      }
+
+      .selectedButton{
+        background-color: rgb(211, 205, 205);
+        border: 2px solid rgb(135, 135, 45);
+      }
+      
+    </style>
+
+  </head>
+  <body>
+
+    <div id="buttonContainer"></div>
+
+
+    <script src="GIFDATA.js"></script>
+    <script src="GifItem.js"></script>
+    <script src="sketch.js"></script>
+
+
+</body></html>
