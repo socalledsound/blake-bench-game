@@ -1,3 +1,6 @@
+// i actually rewrote the code so there's no button position any more....
+// which means we could probabluy just make one object with each key being the text
+// and then the url to the image as the value????
 const GIFDATA = [
     {
         img: 'checks-watch.gif',
